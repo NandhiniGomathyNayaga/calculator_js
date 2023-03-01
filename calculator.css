@@ -1,0 +1,96 @@
+h1{
+    color:brown;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    margin:5px 10px;
+    padding:5px 10px;
+    background-color: black;
+}
+
+#cal{
+background-color: azure;
+min-width: 230px;
+min-height: 40px;
+font-weight: bold;
+
+
+}
+.calc_body{
+    width:275px;
+    margin: auto;
+    min-height: 400px;
+    box-shadow: 0 8px 50px -7px black;
+    background: #92b0ac;
+}
+
+.first{
+    min-width: 68px;
+    min-height: 60px;
+    background: fixed;
+   
+}
+
+.second{
+    min-width: 50px;
+    min-height: 60px;
+    background: fixed;
+}
+.third{
+    min-width: 50px;
+    min-height: 60px;
+    background: fixed;
+}
+.four{
+    min-width: 50px;
+    min-height: 60px;
+    background: fixed;
+}
+
+
+.calc_screen{
+    padding: 1rem;
+}
+
+#cal{
+    font-size: 1.3rem;
+    text-align: right;
+    color: #787878;
+    padding-bottom: .5rem;
+}
+
+#calc{
+    font-size: 2rem;
+    text-align: right;
+    color: #fff;
+}
+
+
+.type{
+    display: table;
+
+}
+
+
+.type button{
+    display:table-cell;
+    width: 25%;
+    background-color: #787878;
+    color: #fff;
+    height: 65px;
+    font-size: 1.3rem;
+    border:none;
+    border-color: #92b0ac;
+    border-width: 1px 1px 0px 0;
+    border-style: solid;
+}
+
+.type button:active {
+position: relative;
+top: 1px;
+}
+
+.type button:hover {
+    background: #d92929;
+}
+
